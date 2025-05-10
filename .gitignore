@@ -26,6 +26,13 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Dataset files - avoid committing large data files
+data/VOCdevkit/
+data/voc/
+data/*.tar
+data/*.zip
+data/*.gz
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
